@@ -40,6 +40,9 @@ python3 /home/pi/YingRen/hikarifield_Product_notification/Main_Message.py
 
 deactivate
 
+:end
+
+
 sudo chmod +x autorun.sh
 
 cp autorun.sh /home/pi/autorun.sh
@@ -49,3 +52,5 @@ sudo crontab -e
 :
 
 0 12 * * * /home/pi/autorun.sh
+
+:end
